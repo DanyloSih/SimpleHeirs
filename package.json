@@ -1,0 +1,15 @@
+{
+  "name": "com.qplaze.simple-heirs",
+  "version": "1.0.0",
+  "displayName": "Qplaze SimpleHeirs",
+  "description": "Allows you to simply and conveniently select in the inspector and serialize any descendant of the class or interface you specify.",
+  "unity": "2017.1",
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "licensesUrl": "",
+  "author": {
+    "name": "Danylo Sigaev",
+    "email": "danil.sigaev@qplaze.com",
+    "url": ""
+  }
+}
