@@ -52,7 +52,7 @@ public class Shape
 public abstract class Shape
 {
     public string Name;
-	public float Scale;
+    public float Scale;
 
     public abstract string GetShape();
 }

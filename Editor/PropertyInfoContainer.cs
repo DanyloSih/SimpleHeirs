@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using SimpleHeirs.Extensions;
 using UnityEditor;
 
-namespace SimpleHeirs
+namespace SimpleHeirs.Editor
 {
     [Serializable]
     public class PropertyInfoContainer

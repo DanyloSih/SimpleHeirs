@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using UnityEditor.VersionControl;
 using UnityEngine;
 
 namespace SimpleHeirs.Extensions
@@ -97,7 +96,6 @@ namespace SimpleHeirs.Extensions
                    type.IsSubclassOf(typeof(ICollection)) ||
                    type.IsSubclassOf(typeof(GameObject)) ||
                    type.IsSubclassOf(typeof(Component)) ||
-                   type.IsSubclassOf(typeof(Asset)) ||
                    type.IsSubclassOf(typeof(UnityEngine.Object)) ||
                    type.IsEnum;
         }

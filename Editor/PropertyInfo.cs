@@ -5,7 +5,7 @@ using System.Reflection;
 using SimpleHeirs.Extensions;
 using UnityEditor;
 
-namespace SimpleHeirs
+namespace SimpleHeirs.Editor
 {
     public struct PropertyInfo
     {

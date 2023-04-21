@@ -1,6 +1,9 @@
 ﻿using System;
-using UnityEditor;
 using UnityEngine;
+
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 namespace SimpleHeirs
 {
@@ -103,6 +106,7 @@ namespace SimpleHeirs
 
         private void FixManagedReferencesIssue()
         {
+#if UNITY_EDITOR
             if (_targetObject == null)
             {
                 return;
@@ -116,6 +120,7 @@ namespace SimpleHeirs
                 _selectedIndex = 0;
                 SerializationUtility.ClearAllManagedReferencesWithMissingTypes(_targetObject);
             }
+#endif
         }
     }
 }
